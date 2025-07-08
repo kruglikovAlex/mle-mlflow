@@ -1,0 +1,47 @@
+artifact_path: file:///home/mle-user/mle_projects/mle-mlflow/notebooks/mlruns/940087016136040846/models/m-a21e56e988a9403b9a0eba0d82273d63/artifacts
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.1
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.10.12
+    streamable: false
+is_signature_from_type_hint: false
+metadata:
+  model_type: monthly
+mlflow_version: 3.1.0
+model_id: m-a21e56e988a9403b9a0eba0d82273d63
+model_size_bytes: 1103416
+model_uuid: m-a21e56e988a9403b9a0eba0d82273d63
+prompts: null
+run_id: f14d14da81e04defaa885df1b14a7f19
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "id", "required": true}, {"type": "string", "name":
+    "begin_date", "required": true}, {"type": "string", "name": "end_date", "required":
+    false}, {"type": "string", "name": "type", "required": true}, {"type": "string",
+    "name": "paperless_billing", "required": true}, {"type": "string", "name": "payment_method",
+    "required": true}, {"type": "double", "name": "monthly_charges", "required": true},
+    {"type": "double", "name": "total_charges", "required": true}, {"type": "string",
+    "name": "internet_service", "required": true}, {"type": "string", "name": "online_security",
+    "required": true}, {"type": "string", "name": "online_backup", "required": true},
+    {"type": "string", "name": "device_protection", "required": true}, {"type": "string",
+    "name": "tech_support", "required": true}, {"type": "string", "name": "streaming_tv",
+    "required": true}, {"type": "string", "name": "streaming_movies", "required":
+    true}, {"type": "string", "name": "gender", "required": true}, {"type": "long",
+    "name": "senior_citizen", "required": true}, {"type": "string", "name": "partner",
+    "required": true}, {"type": "string", "name": "dependents", "required": true},
+    {"type": "string", "name": "multiple_lines", "required": true}, {"type": "long",
+    "name": "target", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-07 23:20:25.303312'

@@ -1,0 +1,10 @@
+artifact_location: file:///home/mle-user/mle_projects/mle-mlflow/notebooks/mlruns/940087016136040846/models/m-a21e56e988a9403b9a0eba0d82273d63/artifacts
+creation_timestamp: 1751930425299
+experiment_id: '940087016136040846'
+last_updated_timestamp: 1751930425424
+model_id: m-a21e56e988a9403b9a0eba0d82273d63
+model_type: null
+name: models
+source_run_id: f14d14da81e04defaa885df1b14a7f19
+status: 2
+status_message: null
